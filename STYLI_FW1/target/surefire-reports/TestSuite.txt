@@ -1,0 +1,15 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 33.376 s <<< FAILURE! - in TestSuite
+STYLI_FW.STYLI_FW1.StyliTest.stylitest  Time elapsed: 32.821 s  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <a href="/sa/en/product-freerun-plain-hooded-jacket-with-long-sleeves-50012203" title="Plain Hooded Jacket with Long Sleeves" class="col-xs-6 col-lg-3 col-md-4 c-main-gray cursor-default product-item">...</a> is not clickable at point (544, 882). Other element would receive the click: <button class="fs-13 c-dark-gray transparent w100p p-10 b-white Button" type="button">...</button>
+  (Session info: chrome=87.0.4280.66)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Nikhils-MacBook-Air.local', ip: '2406:7400:54:3143:212d:a531:7a46:c014%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '1.8.0_211'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: /tmp/.com.google.Chrome.TZA3js}, goog:chromeOptions: {debuggerAddress: localhost:45091}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: 430f98982117ba8f2fb3e3505c7...}
+Session ID: 430f98982117ba8f2fb3e3505c7b5e78
+	at STYLI_FW.STYLI_FW1.StyliTest.stylitest(StyliTest.java:34)
+

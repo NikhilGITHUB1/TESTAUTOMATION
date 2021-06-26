@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="31031" started-at="2021-03-26T16:22:24Z" finished-at="2021-03-26T16:22:55Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="31031" started-at="2021-03-26T16:22:24Z" finished-at="2021-03-26T16:22:55Z">
+      <class name="STYLI_FW.STYLI_FW1.StylijavaTest">
+        <test-method status="PASS" signature="styliJavaTest()[pri:0, instance:STYLI_FW.STYLI_FW1.StylijavaTest@204f30ec]" name="styliJavaTest" duration-ms="30962" started-at="2021-03-26T16:22:24Z" finished-at="2021-03-26T16:22:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- styliJavaTest -->
+      </class> <!-- STYLI_FW.STYLI_FW1.StylijavaTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
