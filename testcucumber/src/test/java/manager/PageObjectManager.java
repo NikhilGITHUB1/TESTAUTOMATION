@@ -1,0 +1,24 @@
+package manager;
+
+import org.openqa.selenium.WebDriver;
+
+import pageobjects.HomePage;
+
+public class PageObjectManager {
+	
+	public WebDriver driver;
+	private HomePage homePage;
+
+public PageObjectManager(WebDriver driver) {
+	this.driver=driver;
+	
+}
+	
+public HomePage getHomePage() {
+	
+	return (homePage==null) ? homePage=new HomePage(driver) : homePage;
+	
+
+ }
+
+}
