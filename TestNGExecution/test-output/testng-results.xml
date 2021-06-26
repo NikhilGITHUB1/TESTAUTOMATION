@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="18847" started-at="2019-06-24T15:26:31Z" finished-at="2019-06-24T15:26:50Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="18847" started-at="2019-06-24T15:26:31Z" finished-at="2019-06-24T15:26:50Z">
+      <class name="invocationandthreadpool.Testinvocationcount">
+        <test-method status="PASS" signature="test()[pri:0, instance:invocationandthreadpool.Testinvocationcount@754ba872]" name="test" duration-ms="4433" started-at="2019-06-24T15:26:31Z" finished-at="2019-06-24T15:26:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:invocationandthreadpool.Testinvocationcount@754ba872]" name="tearDown" is-config="true" duration-ms="204" started-at="2019-06-24T15:26:35Z" finished-at="2019-06-24T15:26:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="test()[pri:0, instance:invocationandthreadpool.Testinvocationcount@754ba872]" name="test" duration-ms="3557" started-at="2019-06-24T15:26:35Z" finished-at="2019-06-24T15:26:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:invocationandthreadpool.Testinvocationcount@754ba872]" name="tearDown" is-config="true" duration-ms="182" started-at="2019-06-24T15:26:39Z" finished-at="2019-06-24T15:26:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="test()[pri:0, instance:invocationandthreadpool.Testinvocationcount@754ba872]" name="test" duration-ms="2921" started-at="2019-06-24T15:26:39Z" finished-at="2019-06-24T15:26:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:invocationandthreadpool.Testinvocationcount@754ba872]" name="tearDown" is-config="true" duration-ms="173" started-at="2019-06-24T15:26:42Z" finished-at="2019-06-24T15:26:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="test()[pri:0, instance:invocationandthreadpool.Testinvocationcount@754ba872]" name="test" duration-ms="3477" started-at="2019-06-24T15:26:42Z" finished-at="2019-06-24T15:26:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:invocationandthreadpool.Testinvocationcount@754ba872]" name="tearDown" is-config="true" duration-ms="163" started-at="2019-06-24T15:26:46Z" finished-at="2019-06-24T15:26:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="test()[pri:0, instance:invocationandthreadpool.Testinvocationcount@754ba872]" name="test" duration-ms="3517" started-at="2019-06-24T15:26:46Z" finished-at="2019-06-24T15:26:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:invocationandthreadpool.Testinvocationcount@754ba872]" name="tearDown" is-config="true" duration-ms="166" started-at="2019-06-24T15:26:49Z" finished-at="2019-06-24T15:26:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- invocationandthreadpool.Testinvocationcount -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

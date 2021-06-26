@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Regression]">
+  <test thread-count="5" name="Regression Test1(failed)">
+    <classes>
+      <class name="regression.TestAssert">
+        <methods>
+          <include name="testAssert1"/>
+          <include name="testAssert"/>
+        </methods>
+      </class> <!-- regression.TestAssert -->
+    </classes>
+  </test> <!-- Regression Test1(failed) -->
+  <test thread-count="5" name="Regression Dependencies(failed)">
+    <classes>
+      <class name="regression.TestDependencies">
+        <methods>
+          <include name="dologontestcase2"/>
+          <include name="doregistration"/>
+          <include name="dologontestcase"/>
+        </methods>
+      </class> <!-- regression.TestDependencies -->
+    </classes>
+  </test> <!-- Regression Dependencies(failed) -->
+</suite> <!-- Failed suite [Regression] -->
