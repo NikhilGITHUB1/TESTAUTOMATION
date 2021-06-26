@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="89" started-at="2020-11-05T02:36:09Z" finished-at="2020-11-05T02:36:09Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="89" started-at="2020-11-05T02:36:09Z" finished-at="2020-11-05T02:36:09Z">
+      <class name="com.mycompany.app.Appiumtest">
+        <test-method status="PASS" signature="test()[pri:0, instance:com.mycompany.app.Appiumtest@5b275dab]" name="test" duration-ms="2" started-at="2020-11-05T02:36:09Z" finished-at="2020-11-05T02:36:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+      </class> <!-- com.mycompany.app.Appiumtest -->
+      <class name="com.mycompany.app.RestTest">
+        <test-method status="PASS" signature="test2()[pri:0, instance:com.mycompany.app.RestTest@4501b7af]" name="test2" duration-ms="21" started-at="2020-11-05T02:36:09Z" finished-at="2020-11-05T02:36:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+      </class> <!-- com.mycompany.app.RestTest -->
+      <class name="com.mycompany.app.Cucumbertest">
+        <test-method status="PASS" signature="test1()[pri:0, instance:com.mycompany.app.Cucumbertest@523884b2]" name="test1" duration-ms="4" started-at="2020-11-05T02:36:09Z" finished-at="2020-11-05T02:36:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+      </class> <!-- com.mycompany.app.Cucumbertest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
