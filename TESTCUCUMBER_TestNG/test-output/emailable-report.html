@@ -1,0 +1,263 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head><title>TestNG Report</title><style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}</style></head><body><table><tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr><tr><th colspan="7">Environment config tsts</th></tr><tr><td><a href="#t0">windows chrome - no tags (all features)</a></td><td class="num">0</td><td class="num attn">1</td><td class="num">0</td><td class="num">6,336</td><td></td><td></td></tr><tr class="stripe"><td><a href="#t1">windows firefox - no tags (all features)</a></td><td class="num">0</td><td class="num attn">1</td><td class="num">0</td><td class="num">8,250</td><td></td><td></td></tr><tr><td><a href="#t2">windows edge - no tags (all features)</a></td><td class="num">0</td><td class="num attn">1</td><td class="num">0</td><td class="num">6,253</td><td></td><td></td></tr><tr><th>Total</th><th class="num">0</th><th class="num attn">3</th><th class="num">0</th><th class="num">20,839</th><th colspan="2"></th></tr></table><table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Environment config tsts</th></tr></tbody><tbody id="t0"><tr><th colspan="4">windows chrome - no tags (all features) &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">testrunner.TestRunner</td><td><a href="#m0">tear_down</a></td><td rowspan="1">1590607686959</td><td rowspan="1">0</td></tr><tr><th colspan="4">windows chrome - no tags (all features) &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="1">testrunner.TestRunner</td><td><a href="#m1">run_scenario</a></td><td rowspan="1">1590607684560</td><td rowspan="1">0</td></tr></tbody><tbody id="t1"><tr><th colspan="4">windows firefox - no tags (all features) &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">testrunner.TestRunner</td><td><a href="#m2">tear_down</a></td><td rowspan="1">1590607688862</td><td rowspan="1">1</td></tr><tr><th colspan="4">windows firefox - no tags (all features) &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="1">testrunner.TestRunner</td><td><a href="#m3">run_scenario</a></td><td rowspan="1">1590607686836</td><td rowspan="1">0</td></tr></tbody><tbody id="t2"><tr><th colspan="4">windows edge - no tags (all features) &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">testrunner.TestRunner</td><td><a href="#m4">tear_down</a></td><td rowspan="1">1590607686856</td><td rowspan="1">4</td></tr><tr><th colspan="4">windows edge - no tags (all features) &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="1">testrunner.TestRunner</td><td><a href="#m5">run_scenario</a></td><td rowspan="1">1590607684558</td><td rowspan="1">0</td></tr></tbody></table><h2>windows chrome - no tags (all features)</h2><h3 id="m0">testrunner.TestRunner#tear_down</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException
+	at testrunner.TestRunner.tear_down(TestRunner.java:79)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 16 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m1">testrunner.TestRunner#run_scenario</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.RuntimeException: org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 80
+Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;
+System info: host: &apos;Nikhils-MacBook-Air.local&apos;, ip: &apos;2406:7400:54:3143:b169:a006:3eab:4c1e%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.5&apos;, java.version: &apos;1.8.0_211&apos;
+Driver info: driver.version: ChromeDriver
+remote stacktrace: 0   chromedriver                        0x0000000104ea0329 chromedriver + 3838761
+1   chromedriver                        0x0000000104e3a123 chromedriver + 3420451
+2   chromedriver                        0x0000000104bae62f chromedriver + 751151
+3   chromedriver                        0x0000000104b0ffa6 chromedriver + 102310
+4   chromedriver                        0x0000000104b0bf7f chromedriver + 85887
+5   chromedriver                        0x0000000104b3b473 chromedriver + 279667
+6   chromedriver                        0x0000000104b382b3 chromedriver + 266931
+7   chromedriver                        0x0000000104b120bd chromedriver + 110781
+8   chromedriver                        0x0000000104b13055 chromedriver + 114773
+9   chromedriver                        0x0000000104e61ebf chromedriver + 3583679
+10  chromedriver                        0x0000000104e6ee4a chromedriver + 3636810
+11  chromedriver                        0x0000000104e6ebe7 chromedriver + 3636199
+12  chromedriver                        0x0000000104e45839 chromedriver + 3467321
+13  chromedriver                        0x0000000104e6f707 chromedriver + 3639047
+14  chromedriver                        0x0000000104e57cc7 chromedriver + 3542215
+15  chromedriver                        0x0000000104e85324 chromedriver + 3728164
+16  chromedriver                        0x0000000104ea6387 chromedriver + 3863431
+17  libsystem_pthread.dylib             0x00007fff5e1342eb _pthread_body + 126
+18  libsystem_pthread.dylib             0x00007fff5e137249 _pthread_start + 66
+19  libsystem_pthread.dylib             0x00007fff5e13340d thread_start + 13
+
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 80
+Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;
+System info: host: &apos;Nikhils-MacBook-Air.local&apos;, ip: &apos;2406:7400:54:3143:b169:a006:3eab:4c1e%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.5&apos;, java.version: &apos;1.8.0_211&apos;
+Driver info: driver.version: ChromeDriver
+remote stacktrace: 0   chromedriver                        0x0000000104ea0329 chromedriver + 3838761
+1   chromedriver                        0x0000000104e3a123 chromedriver + 3420451
+2   chromedriver                        0x0000000104bae62f chromedriver + 751151
+3   chromedriver                        0x0000000104b0ffa6 chromedriver + 102310
+4   chromedriver                        0x0000000104b0bf7f chromedriver + 85887
+5   chromedriver                        0x0000000104b3b473 chromedriver + 279667
+6   chromedriver                        0x0000000104b382b3 chromedriver + 266931
+7   chromedriver                        0x0000000104b120bd chromedriver + 110781
+8   chromedriver                        0x0000000104b13055 chromedriver + 114773
+9   chromedriver                        0x0000000104e61ebf chromedriver + 3583679
+10  chromedriver                        0x0000000104e6ee4a chromedriver + 3636810
+11  chromedriver                        0x0000000104e6ebe7 chromedriver + 3636199
+12  chromedriver                        0x0000000104e45839 chromedriver + 3467321
+13  chromedriver                        0x0000000104e6f707 chromedriver + 3639047
+14  chromedriver                        0x0000000104e57cc7 chromedriver + 3542215
+15  chromedriver                        0x0000000104e85324 chromedriver + 3728164
+16  chromedriver                        0x0000000104ea6387 chromedriver + 3863431
+17  libsystem_pthread.dylib             0x00007fff5e1342eb _pthread_body + 126
+18  libsystem_pthread.dylib             0x00007fff5e137249 _pthread_start + 66
+19  libsystem_pthread.dylib             0x00007fff5e13340d thread_start + 13
+
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$new$0(W3CHandshakeResponse.java:57)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$getResponseFunction$2(W3CHandshakeResponse.java:104)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:123)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:498)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:485)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:126)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:73)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:209)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:132)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
+	at managers.WebDriverManager.createLocalDriver(WebDriverManager.java:63)
+	at managers.WebDriverManager.createDriver(WebDriverManager.java:42)
+	at managers.WebDriverManager.getDriver(WebDriverManager.java:36)
+	at testrunner.TestRunner.scenarios(TestRunner.java:53)
+	... 17 more
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h2>windows firefox - no tags (all features)</h2><h3 id="m2">testrunner.TestRunner#tear_down</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException
+	at testrunner.TestRunner.tear_down(TestRunner.java:79)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 16 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m3">testrunner.TestRunner#run_scenario</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.RuntimeException: org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 80
+Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;
+System info: host: &apos;Nikhils-MacBook-Air.local&apos;, ip: &apos;2406:7400:54:3143:b169:a006:3eab:4c1e%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.5&apos;, java.version: &apos;1.8.0_211&apos;
+Driver info: driver.version: ChromeDriver
+remote stacktrace: 0   chromedriver                        0x000000010a47b329 chromedriver + 3838761
+1   chromedriver                        0x000000010a415123 chromedriver + 3420451
+2   chromedriver                        0x000000010a18962f chromedriver + 751151
+3   chromedriver                        0x000000010a0eafa6 chromedriver + 102310
+4   chromedriver                        0x000000010a0e6f7f chromedriver + 85887
+5   chromedriver                        0x000000010a116473 chromedriver + 279667
+6   chromedriver                        0x000000010a1132b3 chromedriver + 266931
+7   chromedriver                        0x000000010a0ed0bd chromedriver + 110781
+8   chromedriver                        0x000000010a0ee055 chromedriver + 114773
+9   chromedriver                        0x000000010a43cebf chromedriver + 3583679
+10  chromedriver                        0x000000010a449e4a chromedriver + 3636810
+11  chromedriver                        0x000000010a449be7 chromedriver + 3636199
+12  chromedriver                        0x000000010a420839 chromedriver + 3467321
+13  chromedriver                        0x000000010a44a707 chromedriver + 3639047
+14  chromedriver                        0x000000010a432cc7 chromedriver + 3542215
+15  chromedriver                        0x000000010a460324 chromedriver + 3728164
+16  chromedriver                        0x000000010a481387 chromedriver + 3863431
+17  libsystem_pthread.dylib             0x00007fff5e1342eb _pthread_body + 126
+18  libsystem_pthread.dylib             0x00007fff5e137249 _pthread_start + 66
+19  libsystem_pthread.dylib             0x00007fff5e13340d thread_start + 13
+
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 80
+Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;
+System info: host: &apos;Nikhils-MacBook-Air.local&apos;, ip: &apos;2406:7400:54:3143:b169:a006:3eab:4c1e%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.5&apos;, java.version: &apos;1.8.0_211&apos;
+Driver info: driver.version: ChromeDriver
+remote stacktrace: 0   chromedriver                        0x000000010a47b329 chromedriver + 3838761
+1   chromedriver                        0x000000010a415123 chromedriver + 3420451
+2   chromedriver                        0x000000010a18962f chromedriver + 751151
+3   chromedriver                        0x000000010a0eafa6 chromedriver + 102310
+4   chromedriver                        0x000000010a0e6f7f chromedriver + 85887
+5   chromedriver                        0x000000010a116473 chromedriver + 279667
+6   chromedriver                        0x000000010a1132b3 chromedriver + 266931
+7   chromedriver                        0x000000010a0ed0bd chromedriver + 110781
+8   chromedriver                        0x000000010a0ee055 chromedriver + 114773
+9   chromedriver                        0x000000010a43cebf chromedriver + 3583679
+10  chromedriver                        0x000000010a449e4a chromedriver + 3636810
+11  chromedriver                        0x000000010a449be7 chromedriver + 3636199
+12  chromedriver                        0x000000010a420839 chromedriver + 3467321
+13  chromedriver                        0x000000010a44a707 chromedriver + 3639047
+14  chromedriver                        0x000000010a432cc7 chromedriver + 3542215
+15  chromedriver                        0x000000010a460324 chromedriver + 3728164
+16  chromedriver                        0x000000010a481387 chromedriver + 3863431
+17  libsystem_pthread.dylib             0x00007fff5e1342eb _pthread_body + 126
+18  libsystem_pthread.dylib             0x00007fff5e137249 _pthread_start + 66
+19  libsystem_pthread.dylib             0x00007fff5e13340d thread_start + 13
+
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$new$0(W3CHandshakeResponse.java:57)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$getResponseFunction$2(W3CHandshakeResponse.java:104)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:123)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:498)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:485)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:126)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:73)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:209)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:132)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
+	at managers.WebDriverManager.createLocalDriver(WebDriverManager.java:63)
+	at managers.WebDriverManager.createDriver(WebDriverManager.java:42)
+	at managers.WebDriverManager.getDriver(WebDriverManager.java:36)
+	at testrunner.TestRunner.scenarios(TestRunner.java:53)
+	... 17 more
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h2>windows edge - no tags (all features)</h2><h3 id="m4">testrunner.TestRunner#tear_down</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException
+	at testrunner.TestRunner.tear_down(TestRunner.java:79)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 16 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m5">testrunner.TestRunner#run_scenario</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.RuntimeException: org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 80
+Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;
+System info: host: &apos;Nikhils-MacBook-Air.local&apos;, ip: &apos;2406:7400:54:3143:b169:a006:3eab:4c1e%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.5&apos;, java.version: &apos;1.8.0_211&apos;
+Driver info: driver.version: ChromeDriver
+remote stacktrace: 0   chromedriver                        0x0000000100d6e329 chromedriver + 3838761
+1   chromedriver                        0x0000000100d08123 chromedriver + 3420451
+2   chromedriver                        0x0000000100a7c62f chromedriver + 751151
+3   chromedriver                        0x00000001009ddfa6 chromedriver + 102310
+4   chromedriver                        0x00000001009d9f7f chromedriver + 85887
+5   chromedriver                        0x0000000100a09473 chromedriver + 279667
+6   chromedriver                        0x0000000100a062b3 chromedriver + 266931
+7   chromedriver                        0x00000001009e00bd chromedriver + 110781
+8   chromedriver                        0x00000001009e1055 chromedriver + 114773
+9   chromedriver                        0x0000000100d2febf chromedriver + 3583679
+10  chromedriver                        0x0000000100d3ce4a chromedriver + 3636810
+11  chromedriver                        0x0000000100d3cbe7 chromedriver + 3636199
+12  chromedriver                        0x0000000100d13839 chromedriver + 3467321
+13  chromedriver                        0x0000000100d3d707 chromedriver + 3639047
+14  chromedriver                        0x0000000100d25cc7 chromedriver + 3542215
+15  chromedriver                        0x0000000100d53324 chromedriver + 3728164
+16  chromedriver                        0x0000000100d74387 chromedriver + 3863431
+17  libsystem_pthread.dylib             0x00007fff5e1342eb _pthread_body + 126
+18  libsystem_pthread.dylib             0x00007fff5e137249 _pthread_start + 66
+19  libsystem_pthread.dylib             0x00007fff5e13340d thread_start + 13
+
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 80
+Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;
+System info: host: &apos;Nikhils-MacBook-Air.local&apos;, ip: &apos;2406:7400:54:3143:b169:a006:3eab:4c1e%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.5&apos;, java.version: &apos;1.8.0_211&apos;
+Driver info: driver.version: ChromeDriver
+remote stacktrace: 0   chromedriver                        0x0000000100d6e329 chromedriver + 3838761
+1   chromedriver                        0x0000000100d08123 chromedriver + 3420451
+2   chromedriver                        0x0000000100a7c62f chromedriver + 751151
+3   chromedriver                        0x00000001009ddfa6 chromedriver + 102310
+4   chromedriver                        0x00000001009d9f7f chromedriver + 85887
+5   chromedriver                        0x0000000100a09473 chromedriver + 279667
+6   chromedriver                        0x0000000100a062b3 chromedriver + 266931
+7   chromedriver                        0x00000001009e00bd chromedriver + 110781
+8   chromedriver                        0x00000001009e1055 chromedriver + 114773
+9   chromedriver                        0x0000000100d2febf chromedriver + 3583679
+10  chromedriver                        0x0000000100d3ce4a chromedriver + 3636810
+11  chromedriver                        0x0000000100d3cbe7 chromedriver + 3636199
+12  chromedriver                        0x0000000100d13839 chromedriver + 3467321
+13  chromedriver                        0x0000000100d3d707 chromedriver + 3639047
+14  chromedriver                        0x0000000100d25cc7 chromedriver + 3542215
+15  chromedriver                        0x0000000100d53324 chromedriver + 3728164
+16  chromedriver                        0x0000000100d74387 chromedriver + 3863431
+17  libsystem_pthread.dylib             0x00007fff5e1342eb _pthread_body + 126
+18  libsystem_pthread.dylib             0x00007fff5e137249 _pthread_start + 66
+19  libsystem_pthread.dylib             0x00007fff5e13340d thread_start + 13
+
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$new$0(W3CHandshakeResponse.java:57)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$getResponseFunction$2(W3CHandshakeResponse.java:104)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:123)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:498)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:485)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:126)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:73)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:209)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:132)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
+	at managers.WebDriverManager.createLocalDriver(WebDriverManager.java:63)
+	at managers.WebDriverManager.createDriver(WebDriverManager.java:42)
+	at managers.WebDriverManager.getDriver(WebDriverManager.java:36)
+	at testrunner.TestRunner.scenarios(TestRunner.java:53)
+	... 17 more
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p></body></html>
